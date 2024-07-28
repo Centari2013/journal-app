@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Secret key for JWT
-const JWT_SECRET = 'your-secret-key'; // Change this to a strong secret key
+const JWT_SECRET = 'lolololol'; // Change this to a strong secret key
 
 // Register route
 app.post('/register', (req, res) => {
